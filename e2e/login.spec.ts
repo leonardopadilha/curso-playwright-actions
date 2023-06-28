@@ -49,3 +49,8 @@ const login = async (page: Page, user: string, pass: string) => {
 
     await page.click('css=button >> text=Entrar')
 }
+
+/*
+Incluindo comando para executar os testes na máquina local
+npx playwright test --headed
+*/
